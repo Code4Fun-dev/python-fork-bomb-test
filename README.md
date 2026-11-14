@@ -3,7 +3,7 @@
 > **Disclaimer:** This repository is an educational hobby project created to explore operating system process management and resource limits. Do not run this code on production systems or machines where you do not have explicit permission to test system stability.
 
 ## Overview
-A fork bomb is a classic denial-of-service (DoS) mechanism that demonstrates what happens when a program replicates itself exponentially. This project uses a cross-platform Python script to observe how different operating systems (POSIX vs. Windows) handle rapid process creation, memory allocation, and Process ID (PID) exhaustion.
+A fork bomb is a classic denial-of-service (DoS) mechanism that demonstrates what happens when a program replicates itself exponentially. This project uses a cross-platform Python script to evaluate how efficiently a high-level, interpreted language can interact with low-level operating system APIs—comparing how POSIX and Windows environments handle rapid process creation, memory allocation, and Process ID (PID) exhaustion.
 
 ## Transparency Note
 The raw Python script in this repository was generated with the assistance of an AI tool as part of a personal learning experiment. My goal with this repo was not to write complex custom software from scratch, but to safely observe cross-platform operating system behavior, test process limits, and document how system administrators defend against resource exhaustion.
